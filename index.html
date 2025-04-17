@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BMI Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="bmi-wrapper">
+    <h2><strong>Body Mass Index Calculator</strong></h2>
+
+    <div class="slider-group">
+      <label>Your height (cm)</label>
+      <div class="range-container">
+        <span class="range-label">100</span>
+        <input type="range" id="height" class="bmi-slider" min="100" max="250" value="180">
+        <span class="range-label">250</span>
+      </div>
+      <div class="value-label" id="heightValue">180</div>
+    </div>
+
+    <div class="slider-group">
+      <label>Your weight (kg)</label>
+      <div class="range-container">
+        <span class="range-label">40</span>
+        <input type="range" id="weight" class="bmi-slider" min="40" max="250" value="75">
+        <span class="range-label">250</span>
+      </div>
+      <div class="value-label" id="weightValue">75</div>
+    </div>
+
+    <p id="bmiCategory"></p>
+    <p id="bmiValue" class="bmi-number">- Waiting...</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
