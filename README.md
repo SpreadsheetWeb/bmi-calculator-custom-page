@@ -48,6 +48,12 @@ README.md    - Documentation
 
 ---
 
+## 📸 Screenshot
+
+![BMI Calculator UI](https://github.com/SpreadsheetWeb/bmi-calculator-custom-page/blob/main/bmi-calculator-screenshot.png?raw=true)
+
+---
+
 ## ✅ Benefits
 
 - No backend needed
